@@ -1,0 +1,16 @@
+<%= pro_link_to("MUTE ALL",send_alarm_command_new_admin_owner_location_path(owner_id: @owner.id, id: @location.id, command: 'mute_all'),'lock','danger',data: {remote: true, method: 'POST'})-%>
+
+
+//*[@id="page-content"]/div[1]/div/div
+
+//*[@id="16"]
+
+//*[@id="16"]
+
+//*[@id="17"]
+
+//*[@id="page-content"]/div[1]/div/div
+
+//*[@id="DataTables_Table_0"]/tbody/tr[1]/td[8]
+
+//*[@id="sidebar-scroll"]/div/ul[1]/li[3]/a/span
